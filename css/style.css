@@ -1,0 +1,137 @@
+.main-content{
+    display: flex;
+}
+.side-menu{
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background-color: rgb(4, 10, 21);
+    overflow-y: auto;
+}
+.side-menu-content{
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    color: darkgray;
+}
+.side-menu-content-link :hover{
+    color: white !important;
+    margin-bottom: 0px;
+}
+.side-menu-list :hover{
+    background-color: rgb(84, 85, 84);
+    text-decoration: none !important;
+    font-weight: 600;
+    font-size: 21px;
+}
+.contact-link{
+    font-size: 22px;
+    color: white;
+}
+.contact-link :hover{
+    color: white;
+}
+.content{
+    margin-left: 270px;
+    width: 100%;
+}
+.nav-display{
+    display: none;
+}
+.content-home-name{
+    font-size: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 34vh;
+}
+.content-home{
+    background-color: black;
+    color: #f8f9fa!important;
+}
+.content-home-label{
+    font-size: 24px;
+    margin-bottom: 34vh;
+}
+.content-skill{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: black;
+    color: #f8f9fa!important;
+}
+.content-project{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.content-project :hover{
+   text-decoration: none;
+}
+.content-project-card{
+    color: black;
+}
+.content-project-card :hover{
+    background-color: rgb(226, 228, 228);
+}
+.page-link{
+    cursor: pointer;
+}
+.content-contact{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: black;
+    color: #f8f9fa!important;
+}
+.content-contact-detail{
+    text-decoration: none;
+}
+.content-contact-detail a{
+    color:rgb(226, 228, 228);
+    text-decoration: none;
+}
+.footer{
+    padding-bottom: 1px;
+    background-color: black;
+    text-align: center;
+    color: gold;
+}
+@media only screen and (max-width: 991px) {
+    .side-menu{
+        position: relative;
+        display: none;
+    }
+    .content{
+        margin-left: 0;
+    }
+    .nav-display{
+        display: block;
+    }
+    .content-home-name{
+        font-size: 52px !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .content-home-name{
+        font-size: 46px !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .content-home-name{
+        font-size: 38px !important;
+    }
+}
+@media only screen and (max-width: 386px) {
+    .content-home-name{
+        font-size: 32px !important;
+    }
+}
+@media only screen and (max-width: 343px) {
+    .content-home-name{
+        font-size: 28px !important;
+    }
+    .content-home-label{
+        font-size: 20px !important;
+    }
+}
+@media only screen and (max-width: 310px) {
+    .content-home-name{
+        font-size: 24px !important;
+    }
+}
